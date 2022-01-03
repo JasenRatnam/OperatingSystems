@@ -1,0 +1,65 @@
+Clock: 1000.0000, Process 2, Started
+Clock: 1000.0000, Process 2, Resumed
+Clock: 1042.0000, Process 2, Store: Variable 1, Value 5
+Clock: 1280.0000, Process 2, Store: Variable 2, Value 3
+Clock: 1346.0000, Process 2, Store: Variable 3, Value 7
+Clock: 1346.5000, Memory Manager, SWAP-STORE
+Clock: 1729.0000, Process 2, Lookup: Variable 3, Value 7
+Clock: 1872.5000, Memory Manager, SWAP-LOOKUP
+Clock: 1872.0000, Process 2, Lookup: Variable 2, Value 3
+Clock: 2153.0000, Process 2, Release: Variable 1
+Clock: 2380.0000, Process 2, Store: Variable 1, Value 8
+Clock: 2380.5000, Memory Manager, SWAP-STORE
+Clock: 2702.0000, Process 2, Lookup: Variable 1, Value 8
+Clock: 2897.5000, Memory Manager, SWAP-LOOKUP
+Clock: 2897.0000, Process 2, Lookup: Variable 2, Value 3
+Clock: 3000.0000, Process 2, Paused
+Clock: 3000.0000, Process 2, Finished
+waiting time for process 2 is: 0.0000
+Clock: 3000.0000, Process 1, Started
+Clock: 3000.0000, Process 3, Started
+Clock: 3000.0000, Process 1, Resumed
+Clock: 3000.0000, Process 3, Resumed
+Clock: 3032.0000, Process 1, Store: Variable 1, Value 5
+Clock: 3030.0000, Process 3, Store: Variable 1, Value 5
+Clock: 3030.5000, Memory Manager, SWAP-STORE
+Clock: 3032.5000, Memory Manager, SWAP-STORE
+Clock: 3177.0000, Process 3, Store: Variable 2, Value 3
+Clock: 3036.0000, Process 1, Store: Variable 2, Value 3
+Clock: 3177.5000, Memory Manager, SWAP-STORE
+Clock: 3036.5000, Memory Manager, SWAP-STORE
+Clock: 3442.0000, Process 3, Store: Variable 3, Value 7
+Clock: 3180.0000, Process 1, Store: Variable 3, Value 7
+Clock: 3442.5000, Memory Manager, SWAP-STORE
+Clock: 3180.5000, Memory Manager, SWAP-STORE
+Clock: 3211.0000, Process 1, Lookup: Variable 3, Value 7
+Clock: 4193.0000, Process 3, Lookup: Variable 3, Value 7
+Clock: 4292.5000, Memory Manager, SWAP-LOOKUP
+Clock: 3421.5000, Memory Manager, SWAP-LOOKUP
+Clock: 3421.0000, Process 1, Lookup: Variable 2, Value 3
+Clock: 3598.0000, Process 1, Release: Variable 1
+Clock: 3605.0000, Process 1, Store: Variable 1, Value 8
+Clock: 4292.0000, Process 3, Lookup: Variable 2, Value 3
+Clock: 4304.0000, Process 3, Release: Variable 1
+Clock: 4317.0000, Process 3, Store: Variable 1, Value 8
+Clock: 4317.5000, Memory Manager, SWAP-STORE
+Clock: 3830.0000, Process 1, Lookup: Variable 1, Value 8
+Clock: 3943.5000, Memory Manager, SWAP-LOOKUP
+Clock: 4509.5000, Memory Manager, SWAP-LOOKUP
+Clock: 3943.5000, Memory Manager, SWAP-LOOKUP
+Clock: 3943.0000, Process 1, Lookup: Variable 2, Value 8
+Clock: 4509.5000, Memory Manager, SWAP-LOOKUP
+Clock: 4509.0000, Process 3, Lookup: Variable 1, Value 8
+Clock: 4975.5000, Memory Manager, SWAP-LOOKUP
+Clock: 4975.0000, Process 3, Lookup: Variable 2, Value 3
+Clock: 4000.0000, Process 1, Paused
+Clock: 4000.0000, Process 1, Finished
+waiting time for process 1 is: 1000.0000
+Clock: 5000.0000, Process 3, Paused
+Clock: 5000.0000, Process 3, Finished
+waiting time for process 3 is: 1000.0000
+
+Waiting Times:
+Process 1: 1000.0000
+Process 2: 0.0000
+Process 3: 1000.0000
